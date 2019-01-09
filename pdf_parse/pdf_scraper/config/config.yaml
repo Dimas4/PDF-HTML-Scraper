@@ -1,0 +1,11 @@
+pdf_filename: file.pdf
+page: 1
+output_filename: file1.csv
+to_delete: [
+             'Trainee Award Presentation',
+             'Coffee Break and Exhibition',
+             'Lunch',
+             'Co˜ee Break and Exhibition',
+             'Q&A',
+             'Registration'
+           ]
