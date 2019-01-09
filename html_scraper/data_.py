@@ -81,4 +81,6 @@ class FlaurologicalDataStructure:
         return new_data
 
     def _data_to_dataframe(self):
-        self.df = pd.DataFrame(self.data)
+        self.df = pd.DataFrame(self.data, columns=[
+            'Session Title', 'Title', 'Position', 'First Name', 'Middle Name', 'Last Name', 'Workplace'
+        ])
