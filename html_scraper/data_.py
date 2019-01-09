@@ -61,6 +61,12 @@ class FlaurologicalDataStructure:
                                 .strip(':')
                                 .strip('s')
                                 )  # Example: 'Speakers:'
+        
+        if new_data['Position'].lower() == 'debater':
+            new_data['Position'] = 'Panelist'
+        if new_data['Position'].lower() == 'guest speaker':
+            new_data['Position'] = 'Speaker'
+            
         name = d['speakerDetails']['names'][kwargs['speaker_index']]
         name = name[:name.find(',')].split(' ')
         new_data['First Name'] = name[0]
