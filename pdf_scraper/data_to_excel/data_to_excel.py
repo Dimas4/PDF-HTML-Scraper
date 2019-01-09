@@ -62,7 +62,7 @@ class DataToExcel:
             name_parts = name.split()[1:]
 
             data_to_add = {
-                'Session title': last,
+                'Session Title': last,
                 'Title': '',
                 'Position': 'Chairperson',
                 'First Name': name_parts[0],
@@ -96,7 +96,7 @@ class DataToExcel:
         country = country.replace(')', '')
 
         data_to_add = {
-            'Session title': last,
+            'Session Title': last,
             'Title': data,
             'Position': 'Speaker',
             'Middle Name': '',

@@ -22,4 +22,12 @@ data_to_excel.to_excel()
 final_result = data_to_excel.final_data
 
 df = pd.DataFrame(final_result)
-df.to_csv(config['output_filename'], index=False)
+df.to_csv(
+    config['output_filename'],
+    index=False,
+    columns=
+    [
+        'Session Title', 'Title', 'Position', 'First Name',
+        'Middle Name', 'Last Name', 'Workplace'
+    ]
+)
