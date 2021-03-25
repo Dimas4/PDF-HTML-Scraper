@@ -11,6 +11,6 @@ pyparsing==2.3.0
 PyPDF2==1.26.0
 python-dateutil==2.7.5
 pytz==2018.9
-PyYAML==3.13
+PyYAML==5.4
 six==1.12.0
 xlrd==1.2.0
